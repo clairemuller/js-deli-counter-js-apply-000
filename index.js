@@ -1,8 +1,8 @@
 let ticketNumber = 0;
 
 function takeANumber(line){
-  line.push(ticketNumber);
   ticketNumber++;
+  line.push(ticketNumber);
   return `Welcome! You're ticket number #${ticketNumber}`
 }
 
