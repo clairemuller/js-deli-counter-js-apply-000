@@ -2,6 +2,7 @@
 
 function takeANumber(line){
   let ticketNumber = 1;
+  line.push(ticketNumber);
 }
 
 takeANumber(line) // "Welcome! You're ticket number #1" [1]
